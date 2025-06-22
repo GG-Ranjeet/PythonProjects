@@ -1,5 +1,6 @@
 import random
-
+import art
+print(art.logo)
 card_in_a_deck = [[1,11], 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 player = []
 opponent = []
@@ -31,7 +32,7 @@ def details():
     print(len(cards))
     print(f"player holding: {player} total score: {sum(player)}")
     print(f"Opponent holding: {opponent}")
-details()
+# details()
 
 
 def assign(you, them, card):
@@ -84,7 +85,7 @@ while play =="y":
     player, opponent, cards = assign(player, opponent, cards)
     print(f"You holding: {player} total score: {sum(player)}")
     print(f"Opponent's first card: {opponent[0]}")
-    
+
     draw = input("Type y to get another card or type n to pass: ")
     if draw == 'y':
         player, opponent, cards, play = bust_check_player(player,opponent,cards)
