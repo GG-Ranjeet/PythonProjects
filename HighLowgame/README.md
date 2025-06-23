@@ -10,8 +10,8 @@ A fun console game where you guess who has more Instagram followers between two 
   - A short **description** (like "actor", "singer", "athlete", etc.)
   - **Follower count of the first person**
 - You must guess whether the **second person** has **more** or **fewer** followers.
-  - Type `h` for **higher**
-  - Type `l` for **lower**
+  - Type `A` for **TO CHOOSE FIRST PERSON**
+  - Type `B` for **TO CHOOSE SECOND**
 - If you're right, you score a point and continue to the next round.
 - If you're wrong, the game ends.
 
